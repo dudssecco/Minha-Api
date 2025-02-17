@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://seu-repositorio.git'  // Adicione o link do seu repositório
+                git 'https://github.com/dudssecco/Minha-Api'  // Adicione o link do seu repositório
             }
         }
         stage('Build Docker Image') {
